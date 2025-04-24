@@ -1,11 +1,34 @@
 <script setup>
 import GameJamCards from '@/components/GameJamCards.vue'
 import WebsitesCards from '@/components/WebsitesCards.vue'
+import { onMounted } from 'vue'
+
+const observerOptions = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.2,
+}
+
+function observerCallback(entries) {
+  console.log(entries)
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      // fade in observed elements that are in view
+      entry.target.classList.replace('c-invisible', 'c-visible')
+    }
+  })
+}
+
+onMounted(() => {
+  const observer = new IntersectionObserver(observerCallback, observerOptions)
+  const fadeElms = document.querySelectorAll('.c-invisible')
+  fadeElms.forEach((el) => observer.observe(el))
+})
 </script>
 
 <template>
   <main>
-    <section id="projects">
+    <section id="projects" class="c-invisible">
       <h2>Game Jam Projects</h2>
       <p>
         I've been involved in a number of game jams in which I worked very closely with team members
@@ -24,7 +47,7 @@ import WebsitesCards from '@/components/WebsitesCards.vue'
     </section>
     <hr />
 
-    <section id="sites">
+    <section id="sites" class="c-invisible">
       <h2>Websites</h2>
       <p>
         I also develop websites, including the one you're on right now. I like to keep things
@@ -35,7 +58,7 @@ import WebsitesCards from '@/components/WebsitesCards.vue'
     </section>
     <hr />
 
-    <section id="about">
+    <section id="about" class="c-invisible">
       <div>
         <h2>About Me</h2>
         <h5>Omar Achkar</h5>
@@ -76,7 +99,7 @@ import WebsitesCards from '@/components/WebsitesCards.vue'
     </section>
     <hr />
 
-    <section id="links">
+    <section id="links" class="c-invisible">
       <h2>Links</h2>
       <p>
         <a href="https://github.com/fresh4">GitHub</a> •
@@ -86,7 +109,7 @@ import WebsitesCards from '@/components/WebsitesCards.vue'
     </section>
     <hr />
 
-    <section id="contact">
+    <section id="contact" class="c-invisible">
       <h2>Contact Me</h2>
       <p>
         For professional inquiries, contact me at
@@ -103,10 +126,23 @@ import WebsitesCards from '@/components/WebsitesCards.vue'
 section {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  background-color: rgb(32, 32, 32);
+  background-color: var(--color-background-soft);
+  border: 1px solid var(--color-border);
   border-radius: 0.5rem;
-  border: 2px black;
   padding: 1rem;
   padding-bottom: 1rem;
+}
+
+section:hover {
+  border: 1px solid var(--vt-c-green);
+}
+.c-invisible {
+  opacity: 0;
+  transition: 0.5s;
+  margin-top: 4rem;
+}
+.c-visible {
+  opacity: 100%;
+  transition: 0.5s;
 }
 </style>
