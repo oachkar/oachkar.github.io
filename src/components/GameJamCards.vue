@@ -13,7 +13,9 @@
       <div class="card-body">
         <h5 class="card-title">Gelatoss!</h5>
         <p class="card-text">A couch competitive game of high velocity slime splitting.</p>
-        <a href="https://fresh4.itch.io/gelatoss" class="btn itch-btn">Download on itch.io</a>
+        <a href="https://fresh4.itch.io/gelatoss" target="_blank" class="btn itch-btn"
+          >Download on itch.io</a
+        >
       </div>
     </div>
 
@@ -30,7 +32,9 @@
           Take on the role of a secret cabal's researcher to develop the ultimate capsaicin potion
           known to man!
         </p>
-        <a href="https://fresh4.itch.io/pepper-hermit" class="btn itch-btn"> Play on itch.io </a>
+        <a href="https://fresh4.itch.io/pepper-hermit" target="_blank" class="btn itch-btn">
+          Play on itch.io
+        </a>
       </div>
     </div>
 
@@ -46,7 +50,9 @@
         <p class="card-text">
           Roll, smash, and soar through this Synthwave inspired open leveled arcade bowler!
         </p>
-        <a href="https://fresh4.itch.io/hyperbowl" class="btn itch-btn"> Play on itch.io </a>
+        <a href="https://fresh4.itch.io/hyperbowl" target="_blank" class="btn itch-btn">
+          Play on itch.io
+        </a>
       </div>
     </div>
   </div>
