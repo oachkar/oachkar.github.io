@@ -85,6 +85,10 @@
   justify-content: space-between;
 }
 
+.game-jam-cards .card {
+  border: none;
+}
+
 @media (max-width: 800px) {
   .game-jam-cards {
     flex-direction: column;
