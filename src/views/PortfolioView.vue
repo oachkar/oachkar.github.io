@@ -7,7 +7,7 @@ import { onMounted, onUpdated } from 'vue'
 const observerOptions = {
   root: null,
   rootMargin: '0px',
-  threshold: 0.2,
+  threshold: 0.05,
 }
 
 function observerCallback(entries) {
@@ -131,6 +131,7 @@ section {
 section:hover {
   border: 1px solid var(--vt-c-green);
 }
+
 .c-invisible {
   opacity: 0;
   transition: 0.5s;
