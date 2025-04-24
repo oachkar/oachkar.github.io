@@ -22,7 +22,7 @@
 
 <style scoped>
 .g-navbar {
-  background-color: rgb(32, 32, 32);
+  background-color: var(--color-background-soft);
   box-shadow: #42b883 0 2px 0px;
   justify-content: center;
   position: fixed;
