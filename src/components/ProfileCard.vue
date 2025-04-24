@@ -1,6 +1,6 @@
 <template>
   <div class="profile">
-    <img src="../../pfp-cropped.png" class="pfp" />
+    <img src="../../public/pfp-cropped.png" class="pfp" />
     <div>
       <h2>Omar Achkar</h2>
       <p>Software, Web, and Game Developer bringing ideas to life in Houston, Texas.</p>
