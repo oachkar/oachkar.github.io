@@ -1,6 +1,3 @@
-<!-- GameJamCards.vue -->
-<!-- <script setup></script> -->
-
 <template>
   <div class="game-jam-cards">
     <!-- Gelatoss Card -->
