@@ -1,10 +1,11 @@
 <script setup>
 import GameJamCards from '@/components/GameJamCards.vue'
+import WebsitesCards from '@/components/WebsitesCards.vue'
 </script>
 
 <template>
   <main>
-    <section id="projects" ref="projects">
+    <section id="projects">
       <h2>Game Jam Projects</h2>
       <p>
         I've been involved in a number of game jams in which I worked very closely with team members
@@ -23,7 +24,18 @@ import GameJamCards from '@/components/GameJamCards.vue'
     </section>
     <hr />
 
-    <section id="about" ref="about">
+    <section id="sites">
+      <h2>Websites</h2>
+      <p>
+        I also develop websites, including the one you're on right now. I like to keep things
+        simple, lightweight, and easy to use. Though I am a sucker for the occasional flashy landing
+        page with scroll animations... in moderation. Check some of them out.
+      </p>
+      <WebsitesCards />
+    </section>
+    <hr />
+
+    <section id="about">
       <div>
         <h2>About Me</h2>
         <h5>Omar Achkar</h5>
@@ -33,18 +45,19 @@ import GameJamCards from '@/components/GameJamCards.vue'
         </p>
         <h4>Education</h4>
         <p>
-          <b>Bachelor of Science</b> in Computer Science from the University of Houston. <br />
+          <b>Bachelor of Science</b> in Computer Science, with a Minor in Media Production, from the
+          University of Houston. <br />
           <b>Master of Science</b> in Cybersecurity from the University of Houston. <br />
         </p>
         <h4>Skills</h4>
         <p>
           <b>Web Development:</b> Proficient in HTML, CSS, JavaScript, and frameworks such as Vue
-          and React. Experienced with tools such as Node.js. I have professional experience serving
-          and deploying websites using cloud services such as AWS and Digital Ocean, and configuring
-          webservers like Apache/Nginx, using Docker for application containerization, and managing
-          DNS. I also have extensive experience in backend environment development including
-          developing web APIs such as with Flask or Django, as well as configuring backend services
-          such as SQL servers.
+          and React. Experienced with tools such as Node.js and source control using Git. I have
+          professional experience serving and deploying websites using cloud services such as AWS
+          and Digital Ocean, configuring webservers like Apache/Nginx, using Docker for application
+          containerization, and managing DNS. I also have extensive experience in backend
+          environment development including developing web APIs such as with Flask or Django, as
+          well as configuring backend services such as SQL servers.
           <br />
           <b>Game Development:</b> I am proficient in the Godot game engine with equal experience in
           the Unity game engine. I can work comfortably in C# and C++ in these environments. My
@@ -63,7 +76,7 @@ import GameJamCards from '@/components/GameJamCards.vue'
     </section>
     <hr />
 
-    <section id="links" ref="links">
+    <section id="links">
       <h2>Links</h2>
       <p>
         <a href="https://github.com/fresh4">GitHub</a> •
@@ -73,7 +86,7 @@ import GameJamCards from '@/components/GameJamCards.vue'
     </section>
     <hr />
 
-    <section id="contact" ref="contact">
+    <section id="contact">
       <h2>Contact Me</h2>
       <p>
         For professional inquiries, contact me at

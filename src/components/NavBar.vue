@@ -5,6 +5,9 @@
         <a href="#projects">Games</a>
       </li>
       <li class="nav-item">
+        <a href="#sites">Websites</a>
+      </li>
+      <li class="nav-item">
         <a href="#about">About</a>
       </li>
       <li class="nav-item">
@@ -17,7 +20,7 @@
   </nav>
 </template>
 
-<style>
+<style scoped>
 .g-navbar {
   background-color: rgb(32, 32, 32);
   box-shadow: #42b883 0 2px 0px;
@@ -48,11 +51,17 @@
   display: block;
   padding: 14px 16px;
 }
+.g-navbar ul li a:active {
+  background-color: #42b883;
+}
 
 @media (max-width: 800px) {
   .g-navbar ul li {
     display: inline;
     font-size: initial;
+  }
+  .g-navbar ul li a {
+    padding: 14px 11px;
   }
 }
 </style>

@@ -52,7 +52,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .card-img-top {
   transition: 0.25s;
 }
