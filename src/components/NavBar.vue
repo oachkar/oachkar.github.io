@@ -8,6 +8,9 @@
         <a href="#sites">Websites</a>
       </li>
       <li class="nav-item">
+        <a href="#clients">Clients</a>
+      </li>
+      <li class="nav-item">
         <a href="#about">About</a>
       </li>
     </ul>
