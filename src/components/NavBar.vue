@@ -7,9 +7,9 @@
       <li class="nav-item">
         <a href="#sites">Websites</a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a href="#clients">Clients</a>
-      </li>
+      </li> -->
       <li class="nav-item">
         <a href="#about">About</a>
       </li>

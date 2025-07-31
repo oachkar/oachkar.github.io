@@ -66,6 +66,22 @@
           </a>
         </div>
       </div>
+
+      <!-- The Great Eggscape Card -->
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://img.itch.zone/aW1nLzIyMzk3NzM5LnBuZw==/315x250%23c/O0j%2BaB.png"
+          class="card-img-top"
+          alt="The Great Eggscape"
+        />
+        <div class="card-body">
+          <h5 class="card-title">The Great Eggscape</h5>
+          <p class="card-text">Get cracking through this eggcelent platforming eggsperience.</p>
+          <a href="https://fresh4.itch.io/egg" target="_blank" class="btn itch-btn">
+            Play on itch.io
+          </a>
+        </div>
+      </div>
     </div>
     <br />
   </section>
@@ -92,9 +108,8 @@
 }
 
 .game-jam-cards {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
 }
 
@@ -106,12 +121,12 @@
 
 .game-jam-cards .card {
   border: none;
+  justify-self: center;
 }
 
 @media (max-width: 800px) {
   .game-jam-cards {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: 1fr;
   }
 }
 </style>
