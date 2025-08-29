@@ -82,6 +82,22 @@
           </a>
         </div>
       </div>
+
+      <!-- Over/Under Card -->
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://img.itch.zone/aW1nLzIyOTMzNTI1LnBuZw==/315x250%23c/uVSBsD.png"
+          class="card-img-top"
+          alt="Over/Under"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Over/Under</h5>
+          <p class="card-text">Every boon has its price.</p>
+          <a href="https://fresh4.itch.io/over-under" target="_blank" class="btn itch-btn">
+            Play on itch.io
+          </a>
+        </div>
+      </div>
     </div>
     <br />
   </section>
