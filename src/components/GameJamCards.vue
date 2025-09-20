@@ -1,3 +1,11 @@
+<script>
+import GameJamCard from './reusables/GameJamCard.vue'
+
+export default {
+  components: { GameJamCard },
+}
+</script>
+
 <template>
   <section id="projects" class="c-invisible">
     <h2>Game Jam Projects</h2>
@@ -15,89 +23,53 @@
     </p>
     <div class="game-jam-cards">
       <!-- Gelatoss Card -->
-      <div class="card" style="width: 18rem">
-        <img
-          src="https://img.itch.zone/aW1nLzE0Nzk4MTYzLnBuZw==/315x250%23c/zRYdQy.png"
-          class="card-img-top"
-          alt="Gelatoss!"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Gelatoss!</h5>
-          <p class="card-text">A couch competitive game of high velocity slime splitting.</p>
-          <a href="https://fresh4.itch.io/gelatoss" target="_blank" class="btn itch-btn"
-            >Download on itch.io</a
-          >
-        </div>
-      </div>
+      <GameJamCard
+        title="Gelatoss!"
+        desc="A couch competitive game of high velocity slime splitting."
+        link="https://fresh4.itch.io/gelatoss"
+        img="https://img.itch.zone/aW1nLzE0Nzk4MTYzLnBuZw==/315x250%23c/zRYdQy.png"
+        dl
+      />
 
       <!-- Pepper Hermit Card -->
-      <div class="card" style="width: 18rem">
-        <img
-          src="https://img.itch.zone/aW1nLzE3MTMwMzE4LnBuZw==/315x250%23c/0EpDil.png"
-          class="card-img-top"
-          alt="Pepper Hermit"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Pepper Hermit</h5>
-          <p class="card-text">
-            Take on the role of a secret cabal's researcher to develop the ultimate capsaicin potion
-            known to man!
-          </p>
-          <a href="https://fresh4.itch.io/pepper-hermit" target="_blank" class="btn itch-btn">
-            Play on itch.io
-          </a>
-        </div>
-      </div>
+      <GameJamCard
+        title="Pepper Hermit"
+        desc="Take on the role of a secret cabal's researcher to develop the ultimate capsaicin potion known to man!"
+        link="https://fresh4.itch.io/pepper-hermit"
+        img="https://img.itch.zone/aW1nLzE3MTMwMzE4LnBuZw==/315x250%23c/0EpDil.png"
+      />
 
       <!-- Mount Bowlympus Card -->
-      <div class="card" style="width: 18rem">
-        <img
-          src="https://img.itch.zone/aW1nLzE5NjE1NTMxLnBuZw==/315x250%23c/fwR9TC.png"
-          class="card-img-top"
-          alt="Mount Bowlympus"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Mount Bowlympus</h5>
-          <p class="card-text">
-            Roll, smash, and soar through this Synthwave inspired open leveled arcade bowler!
-          </p>
-          <a href="https://fresh4.itch.io/hyperbowl" target="_blank" class="btn itch-btn">
-            Play on itch.io
-          </a>
-        </div>
-      </div>
+      <GameJamCard
+        title="Mount Bowlympus"
+        desc="Roll, smash, and soar through this Synthwave inspired open leveled arcade bowler!"
+        link="https://fresh4.itch.io/hyperbowl"
+        img="https://img.itch.zone/aW1nLzE5NjE1NTMxLnBuZw==/315x250%23c/fwR9TC.png"
+      />
 
       <!-- The Great Eggscape Card -->
-      <div class="card" style="width: 18rem">
-        <img
-          src="https://img.itch.zone/aW1nLzIyMzk3NzM5LnBuZw==/315x250%23c/O0j%2BaB.png"
-          class="card-img-top"
-          alt="The Great Eggscape"
-        />
-        <div class="card-body">
-          <h5 class="card-title">The Great Eggscape</h5>
-          <p class="card-text">Get cracking through this eggcelent platforming eggsperience.</p>
-          <a href="https://fresh4.itch.io/egg" target="_blank" class="btn itch-btn">
-            Play on itch.io
-          </a>
-        </div>
-      </div>
+      <GameJamCard
+        title="The Great Eggscape"
+        desc="Get cracking through this eggcelent platforming eggsperience."
+        link="https://fresh4.itch.io/egg"
+        img="https://img.itch.zone/aW1nLzIyMzk3NzM5LnBuZw==/315x250%23c/O0j%2BaB.png"
+      />
 
       <!-- Over/Under Card -->
-      <div class="card" style="width: 18rem">
-        <img
-          src="https://img.itch.zone/aW1nLzIyOTMzNTI1LnBuZw==/315x250%23c/uVSBsD.png"
-          class="card-img-top"
-          alt="Over/Under"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Over/Under</h5>
-          <p class="card-text">Every boon has its price.</p>
-          <a href="https://fresh4.itch.io/over-under" target="_blank" class="btn itch-btn">
-            Play on itch.io
-          </a>
-        </div>
-      </div>
+      <GameJamCard
+        title="Over/Under"
+        desc="Every boon has a price."
+        link="https://fresh4.itch.io/over-under"
+        img="https://img.itch.zone/aW1nLzIyOTMzNTI1LnBuZw==/315x250%23c/uVSBsD.png"
+      />
+
+      <!-- PopRocks card -->
+      <GameJamCard
+        title="PopRocks"
+        desc="Ready to rock? Get poppin' to this cozy lo-fi rhythm game."
+        link="https://fresh4.itch.io/poprocks"
+        img="https://img.itch.zone/aW1nLzIzMjEzNjQyLnBuZw==/315x250%23c/zos1gR.png"
+      />
     </div>
     <br />
   </section>
