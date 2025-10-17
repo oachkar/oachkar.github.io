@@ -70,6 +70,14 @@ export default {
         link="https://fresh4.itch.io/poprocks"
         img="https://img.itch.zone/aW1nLzIzMjEzNjQyLnBuZw==/315x250%23c/zos1gR.png"
       />
+
+      <!-- Gore Factory card -->
+      <GameJamCard
+        title="Gore Factory 凌迟厂"
+        desc="Please remember to eat all your rice."
+        link="https://fresh4.itch.io/gorefactory"
+        img="https://img.itch.zone/aW1nLzIzNjQ1NTY3LnBuZw==/315x250%23c/Be8yQH.png"
+      />
     </div>
     <br />
   </section>
