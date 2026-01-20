@@ -6,6 +6,18 @@
         I'm a software, web, and game developer with a strong focus on user experience,
         optimization, and good internal design. <br />
       </p>
+      <h4>Accolades</h4>
+      <p>
+        <b>Outstanding Student of the Year</b> recipient, awarded by the Transportation
+        Cybersecurity Center for Advanced Research and Education (CYBER-CARE) and recognized by the
+        <b>U.S. Department of Transportation</b> for outstanding achievement and contributions to
+        transportation research and education.
+      </p>
+      <p>
+        <b>Best Short Paper Award</b> at the 46th IEEE Symposium on Security and Privacy
+        (SecureTrans 2025) for my paper "In-Progress: Exploring Tire Pressure Monitoring Systems
+        (TPMS) for Secure Key Generation for Intra-Vehicular Device Authentication"
+      </p>
       <h4>Education</h4>
       <p>
         <b>Bachelor of Science</b> in Computer Science, with a Minor in Media Production, from the
