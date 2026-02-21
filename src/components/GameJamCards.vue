@@ -22,6 +22,15 @@ export default {
       vision, as well as my ability to realistically manage a project within a strict deadline.
     </p>
     <div class="game-jam-cards">
+      <!-- Get Out Card -->
+      <GameJamCard
+        title="Get Out"
+        desc="You can leave whenever you want."
+        link="https://fresh4.itch.io/get-out"
+        img="https://img.itch.zone/aW1nLzI1Njc0NTI5LnBuZw==/315x250%23c/rIFGA6.png"
+        dl
+      />
+
       <!-- Gelatoss Card -->
       <GameJamCard
         title="Gelatoss!"
