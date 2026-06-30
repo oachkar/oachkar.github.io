@@ -86,6 +86,14 @@ export default {
         link="https://fresh4.itch.io/gorefactory"
         img="https://img.itch.zone/aW1nLzIzNjkzNDkyLnBuZw==/315x250%23c/crKBGh.png"
       />
+
+      <!-- Spin Doctor card -->
+      <GameJamCard
+        title="Spin Doctor"
+        desc="A puzzle word game where you spin headlines and stretch the truth."
+        link="https://fresh4.itch.io/spin-doctor"
+        img="https://img.itch.zone/aW1nLzI4MTcyNzE2LnBuZw==/315x250%23c/xYqEch.png"
+      />
     </div>
     <br />
   </section>
