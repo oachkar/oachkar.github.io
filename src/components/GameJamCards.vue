@@ -30,6 +30,14 @@ export default {
         img="https://img.itch.zone/aW1nLzI1Njc0NTI5LnBuZw==/315x250%23c/rIFGA6.png"
       />
 
+      <!-- Heartstrung Card -->
+      <GameJamCard
+        title="Heartstrung"
+        desc="What will you do with the time you have left?"
+        link="https://fresh4.itch.io/heartstrung"
+        img="https://img.itch.zone/aW1nLzI4NzIxMzYyLnBuZw==/315x250%23c/SHy%2Fmt.png"
+      />
+
       <!-- Gelatoss Card -->
       <GameJamCard
         title="Gelatoss!"

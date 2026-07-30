@@ -23,6 +23,15 @@
         <b>Bachelor of Science</b> in Computer Science, with a Minor in Media Production, from the
         University of Houston. <br />
         <b>Master of Science</b> in Cybersecurity from the University of Houston. <br />
+        <b>PhD (ongoing)</b> in Electrical Computer Engineering from the University of Houston.
+        <br />
+      </p>
+      <h4>Publications</h4>
+      <p>
+        I have led and contributed to a number of academic publications. You can view them on
+        <a href="https://www.researchgate.net/profile/Omar-Achkar" target="_blank">
+          ResearchGate.
+        </a>
       </p>
       <h4>Skills</h4>
       <p>
@@ -42,10 +51,11 @@
 
       <b>Game Engines:</b> Godot, Unity
       <br />
-      <b>Web Frameworks/Tools:</b> React, Vue, Node.js, Next.js, Flask, Django, Express, Tailwind
+      <b>Web Frameworks/Tools:</b> React, Vue, Astro, Node.js, Next.js, Flask, Django, Express,
+      Tailwind
       <br />
-      <b>Backend:</b> AWS, Digital Ocean, Vercel, Prismic, SQL Server, Postgres, Apache, Nginx,
-      Docker
+      <b>Backend:</b> AWS, Digital Ocean, Vercel, Strapi, Prismic, SQL Server, Postgres, Apache,
+      Nginx, Docker
       <br />
       <b>Languages:</b> HTML, CSS, Python, JavaScript, C++, C#, Java, SQL
       <br />
