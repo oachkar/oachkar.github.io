@@ -62,6 +62,8 @@
 
 html {
   scroll-padding-top: 5rem;
+  scrollbar-color: #303030 transparent;
+  scrollbar-width: none;
 }
 
 body {

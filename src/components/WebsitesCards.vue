@@ -61,7 +61,7 @@ const GenshinPNG = new URL('../imgs/genshin.png', import.meta.url).href
 .card-container {
   display: flex;
   justify-content: space-around;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 

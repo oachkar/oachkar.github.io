@@ -47,6 +47,7 @@ defineProps({
 
 .card {
   width: 30%;
+  min-width: 20rem;
   border: none;
   background-color: var(--color-background);
   color: var(--color-text);
@@ -76,6 +77,7 @@ defineProps({
 
   .card {
     width: 100%;
+    min-width: auto;
   }
   .card-img-top {
     height: auto;
